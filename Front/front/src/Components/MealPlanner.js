@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import WeaklyPlan from './WeaklyPlan';
+import WeaklyPlan from './WeeklyPlan';
 import MealSugg from './MealSugg';
 import NutritionSum from './NutritionSum';
 import axios from 'axios';
