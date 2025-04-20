@@ -6,6 +6,8 @@ import GroceryList from './Components/GroceryList/GroceryList';
 import UserDashboard from './Components/DashBoard/UserDashboard';
 import Settings from './Components/Settings';
 import WeeklyPlan from './Components/WeeklyPlan/WeeklyPlan';
+import Login from './Components/Login';
+import Signup from './Components/Signup';
 import Home from './Components/Home';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import styled from 'styled-components';
@@ -58,6 +60,12 @@ function App() {
               <StyledLink to="/" >Home</StyledLink>
             </li>
             <li>
+              <StyledLink to="/login" >Login</StyledLink>
+            </li>
+            <li>
+              <StyledLink to="/signup" >Signup</StyledLink>
+            </li>
+            <li>
               <StyledLink to="/dashboard">DashBoard</StyledLink>
             </li>
             {/*<li>
@@ -78,6 +86,8 @@ function App() {
         {/* Définition des routes */}
         <Routes>
           <Route path="/" element={<Home/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/signup" element={<Signup/>}/>
           <Route path="/settings" element={<Settings />} />
           <Route path="/dashboard" element={<UserDashboard />} />
           <Route path="/weekly-plan" element={<MealPlanner />} />
