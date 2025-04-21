@@ -15,6 +15,8 @@ export default function Signup() {
     const Label = styled.label`
         display:block;
         text-align:left;
+        font-weight:bold;
+        font-size:16px;
     `;
     const Form = styled.form`
         input[type="text"],
@@ -25,9 +27,6 @@ export default function Signup() {
             margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
-            border:1px solid white;
-        }
-        input[type="checkbox"] {
             margin-right: 10px;
         }
     `;
