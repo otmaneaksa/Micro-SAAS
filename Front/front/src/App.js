@@ -4,7 +4,7 @@ import axios from 'axios';
 import MealPlanner from './Components/WeeklyPlan/MealPlanner';
 import GroceryList from './Components/GroceryList/GroceryList';
 import UserDashboard from './Components/DashBoard/UserDashboard';
-import Settings from './Components/Settings';
+import Settings from './Components/Settings/Settings';
 import WeeklyPlan from './Components/WeeklyPlan/WeeklyPlan';
 import Login from './Components/Login';
 import Signup from './Components/Signup';

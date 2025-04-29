@@ -1,10 +1,10 @@
-import React from 'react'
+import React,{ useState } from 'react'
 
 export default function DietPref() {
    const [Regimes, setRegimes] = useState(["Vegan", "Vegetarian", "Pescatarian", "Flexitarian", "Omnivore"]);
    const [Allergies, setAllergies] = useState(["Peanuts", "Tree nuts", "Dairy", "Eggs", "Fish", "Shellfish", "Soy", "Wheat"]);
   return (
-    <DietPref>
+    <>
         <h2>Dietary Preferences</h2>
         <div>
             <h3>Regimes</h3>
@@ -31,6 +31,6 @@ export default function DietPref() {
         <div>
 
         </div>
-    </DietPref>
+    </>
   )
 }
